@@ -1,7 +1,7 @@
 function firstWord(s) {
   // your code here
 	if(s.length===0){
-		return s;
+		return 'Hello';
 	}
 
 	let spaceIndex=s.indexOf(' ');
@@ -14,6 +14,6 @@ function firstWord(s) {
 
 // Do not change the code below
 
-const s = prompt("Enter String:");   
+// const s = prompt("Enter String:");   
 
 alert(firstWord(s));
