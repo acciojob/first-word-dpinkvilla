@@ -1,7 +1,7 @@
 function firstWord(s) {
   // your code here
 	if(s.length===0){
-		return 'Hello';
+		return s;
 	}
 
 	let spaceIndex=s.indexOf(' ');
